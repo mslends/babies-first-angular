@@ -1,0 +1,29 @@
+
+html , body {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: rgb(15, 159, 221);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-content {
+  width: 300px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+
+}
